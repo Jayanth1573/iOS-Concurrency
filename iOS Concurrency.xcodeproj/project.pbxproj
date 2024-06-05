@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDA118E02C0AEE12009A3107 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA118DF2C0AEE12009A3107 /* User.swift */; };
+		FDA118E22C0AF06C009A3107 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA118E12C0AF06C009A3107 /* Post.swift */; };
+		FDA118E52C0AF6B0009A3107 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA118E42C0AF6B0009A3107 /* APIService.swift */; };
+		FDA118EA2C0B243F009A3107 /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA118E92C0B243F009A3107 /* UsersListViewModel.swift */; };
+		FDA118EC2C0B2998009A3107 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = FDA118EB2C0B2998009A3107 /* users.json */; };
+		FDA118EE2C0B29BA009A3107 /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = FDA118ED2C0B29BA009A3107 /* posts.json */; };
+		FDA118F12C0B3D3B009A3107 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA118F02C0B3D3B009A3107 /* Bundle+Extension.swift */; };
 		FDCD6CEC2C06FDCD00EA0B8D /* iOS_ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD6CEB2C06FDCD00EA0B8D /* iOS_ConcurrencyApp.swift */; };
-		FDCD6CEE2C06FDCD00EA0B8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD6CED2C06FDCD00EA0B8D /* ContentView.swift */; };
+		FDCD6CEE2C06FDCD00EA0B8D /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD6CED2C06FDCD00EA0B8D /* UsersListView.swift */; };
 		FDCD6CF02C06FDCE00EA0B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCD6CEF2C06FDCE00EA0B8D /* Assets.xcassets */; };
 		FDCD6CF32C06FDCE00EA0B8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCD6CF22C06FDCE00EA0B8D /* Preview Assets.xcassets */; };
+		FDD4948B2C0DA933005A8C42 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4948A2C0DA933005A8C42 /* MockData.swift */; };
+		FDD4948D2C0DB245005A8C42 /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4948C2C0DB245005A8C42 /* PostsListViewModel.swift */; };
+		FDD4948F2C0DB359005A8C42 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4948E2C0DB359005A8C42 /* PostsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FDA118DF2C0AEE12009A3107 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FDA118E12C0AF06C009A3107 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FDA118E42C0AF6B0009A3107 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FDA118E92C0B243F009A3107 /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		FDA118EB2C0B2998009A3107 /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		FDA118ED2C0B29BA009A3107 /* posts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		FDA118F02C0B3D3B009A3107 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		FDCD6CE82C06FDCD00EA0B8D /* iOS Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Concurrency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD6CEB2C06FDCD00EA0B8D /* iOS_ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_ConcurrencyApp.swift; sourceTree = "<group>"; };
-		FDCD6CED2C06FDCD00EA0B8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDCD6CED2C06FDCD00EA0B8D /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		FDCD6CEF2C06FDCE00EA0B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDCD6CF22C06FDCE00EA0B8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDD4948A2C0DA933005A8C42 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		FDD4948C2C0DB245005A8C42 /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
+		FDD4948E2C0DB359005A8C42 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FDA118DE2C0AEE00009A3107 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDA118DF2C0AEE12009A3107 /* User.swift */,
+				FDA118E12C0AF06C009A3107 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDA118E32C0AF691009A3107 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FDA118E42C0AF6B0009A3107 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FDA118E62C0B23B4009A3107 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDCD6CED2C06FDCD00EA0B8D /* UsersListView.swift */,
+				FDD4948E2C0DB359005A8C42 /* PostsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDA118E82C0B2409009A3107 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FDA118E92C0B243F009A3107 /* UsersListViewModel.swift */,
+				FDD4948C2C0DB245005A8C42 /* PostsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDA118EF2C0B3D1D009A3107 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDA118F02C0B3D3B009A3107 /* Bundle+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FDCD6CDF2C06FDCD00EA0B8D = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				FDCD6CEB2C06FDCD00EA0B8D /* iOS_ConcurrencyApp.swift */,
-				FDCD6CED2C06FDCD00EA0B8D /* ContentView.swift */,
+				FDA118DE2C0AEE00009A3107 /* Models */,
+				FDA118E62C0B23B4009A3107 /* Views */,
+				FDA118E82C0B2409009A3107 /* ViewModels */,
+				FDA118E32C0AF691009A3107 /* Services */,
+				FDA118EF2C0B3D1D009A3107 /* Extensions */,
 				FDCD6CEF2C06FDCE00EA0B8D /* Assets.xcassets */,
 				FDCD6CF12C06FDCE00EA0B8D /* Preview Content */,
 			);
@@ -63,6 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				FDCD6CF22C06FDCE00EA0B8D /* Preview Assets.xcassets */,
+				FDA118EB2C0B2998009A3107 /* users.json */,
+				FDA118ED2C0B29BA009A3107 /* posts.json */,
+				FDD4948A2C0DA933005A8C42 /* MockData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,8 +195,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA118EC2C0B2998009A3107 /* users.json in Resources */,
 				FDCD6CF32C06FDCE00EA0B8D /* Preview Assets.xcassets in Resources */,
 				FDCD6CF02C06FDCE00EA0B8D /* Assets.xcassets in Resources */,
+				FDA118EE2C0B29BA009A3107 /* posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCD6CEE2C06FDCD00EA0B8D /* ContentView.swift in Sources */,
+				FDCD6CEE2C06FDCD00EA0B8D /* UsersListView.swift in Sources */,
+				FDA118F12C0B3D3B009A3107 /* Bundle+Extension.swift in Sources */,
+				FDA118EA2C0B243F009A3107 /* UsersListViewModel.swift in Sources */,
+				FDD4948D2C0DB245005A8C42 /* PostsListViewModel.swift in Sources */,
+				FDA118E52C0AF6B0009A3107 /* APIService.swift in Sources */,
 				FDCD6CEC2C06FDCD00EA0B8D /* iOS_ConcurrencyApp.swift in Sources */,
+				FDD4948B2C0DA933005A8C42 /* MockData.swift in Sources */,
+				FDA118E02C0AEE12009A3107 /* User.swift in Sources */,
+				FDD4948F2C0DB359005A8C42 /* PostsListView.swift in Sources */,
+				FDA118E22C0AF06C009A3107 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
